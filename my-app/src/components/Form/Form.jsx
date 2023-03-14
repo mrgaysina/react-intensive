@@ -19,7 +19,7 @@ class Form extends React.Component {
                     <Input name="Фамилия" type="text"/>
                     <Input name="Дата рождения" type="date"/>
                     <Input name="Телефон" type="tel" pattern="[0-9]|-|[(]|[)]|[+]"/>
-                    <Input name="Сайт" type="text"/>
+                    <Input name="Сайт" type="url"/>
                     <Textarea name="О себе"/>
                     <Textarea name="Стек технологий" />
                     <Textarea name="Описание последнего проекта"/>

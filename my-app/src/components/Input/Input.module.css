@@ -13,3 +13,13 @@
 input {
     height: 25px;
 }
+
+@media screen and (max-width: 600px) {
+    .labelbox {
+        width: 80%
+    }
+
+    input {
+        height: auto;
+    }
+}
