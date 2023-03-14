@@ -1,0 +1,21 @@
+form {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: 10px auto;
+    padding: 20px 15px;
+    row-gap: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 2%;
+}
+
+.buttonbox {
+    display: flex;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 600px) {
+    form {
+        width: 70%;
+    }
+}
